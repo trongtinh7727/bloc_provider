@@ -23,7 +23,5 @@ class CounterBloc extends BaseBloC {
   }
 
   @override
-  void init() {
-    
-  }
+  void init() {}
 }

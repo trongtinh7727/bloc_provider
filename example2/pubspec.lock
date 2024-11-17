@@ -12,9 +12,10 @@ packages:
   bloc_provider_package:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      name: bloc_provider_package
+      sha256: "527d76857a63fdad045b3df9cf32b09f4637528d640c7e823c18b41af06a2e7c"
+      url: "https://pub.dev"
+    source: hosted
     version: "0.0.1"
   boolean_selector:
     dependency: transitive

@@ -24,7 +24,6 @@ class CounterBloc2 extends BaseBloC {
 
   @override
   void init() {
-    
     _counter = 10000;
     _counterSubject.add(_counter);
   }

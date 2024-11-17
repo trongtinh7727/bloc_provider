@@ -37,7 +37,7 @@ class _BlocProviderState<T extends BaseBloC>
   @override
   void initState() {
     super.initState();
-  
+
     if (widget._value != null) {
       bloc = widget._value!;
     } else if (widget.create != null) {

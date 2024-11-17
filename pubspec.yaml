@@ -1,6 +1,6 @@
 name: bloc_provider_package
 description: "A package for managing state using BlocProvider and MultiBlocProvider."
-version: 0.0.1
+version: 0.0.1+1
 homepage: https://github.com/trongtinh7727/bloc_provider
 
 environment:

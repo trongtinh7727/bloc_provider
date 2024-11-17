@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:bloc_provider_package/bloc_provider_package.dart';
 
-
 class LoginBloc extends BaseBloC {
   String _email = '';
   String _password = '';
