@@ -1,6 +1,7 @@
 import 'dart:async';
 
-import 'package:bloc_provider_package/bloc_provider.dart';
+import 'package:bloc_provider_package/bloc_provider_package.dart';
+
 
 class LoginBloc extends BaseBloC {
   String _email = '';
@@ -27,7 +28,7 @@ class LoginBloc extends BaseBloC {
     if (_email.isEmpty || _password.isEmpty) {
       return 'Please fill in both fields';
     }
-    
+
     _isLoading = true;
     _notifyLoginState();
     await Future.delayed(
